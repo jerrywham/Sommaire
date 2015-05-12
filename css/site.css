@@ -20,4 +20,13 @@
     right: 6%;
     top: 10px;
     width:25%;
+    opacity: 0.2;
+}
+.sommaire-fixed a {
+    color:transparent;
+}
+.sommaire-fixed:hover,
+.sommaire-fixed:hover a {
+    opacity: 1;
+    color:inherit;
 }
