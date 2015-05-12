@@ -1,5 +1,5 @@
-$("aside[role=complementary]").prepend("<ul class=\"sommaire\"><li class=\"titre-sommaire\">Sommaire</li></ul>");
-$(".article-content h1, .article-content h2").each(function(i) {
+$("#container").prepend("<ul class=\"sommaire\"><li class=\"titre-sommaire\">Sommaire</li></ul>");
+$(".article-content h1, .article-content h2, article-content h3, article-content h4").each(function(i) {
     $(".sommaire").css({"display":"block","margin-top":"10px"});
     var current = $(this);
     current.attr("id", "title" + i);
